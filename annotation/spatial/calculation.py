@@ -15,6 +15,7 @@ def lastUpdate():
 def name():
 	return __name__
 
+
 def packageInfo():
 	return 'Package name: ' + __name__ + ' | ' + 'Version: ' + __version__ + ' | ' + 'Author: ' + __author__
 	
